@@ -433,7 +433,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 380412398}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -10.059702, y: -25.269176, z: -26.594112}
+  m_LocalPosition: {x: -10.059702, y: -25.269176, z: -26.585}
   m_LocalScale: {x: 0.020000007, y: 0.15, z: 0.40000024}
   m_Children: []
   m_Father: {fileID: 966075808}
@@ -2733,6 +2733,7 @@ GameObject:
   - component: {fileID: 1138429553}
   - component: {fileID: 1138429552}
   - component: {fileID: 1138429551}
+  - component: {fileID: 1138429555}
   m_Layer: 0
   m_Name: Light Bulb 2
   m_TagString: Untagged
@@ -2764,7 +2765,7 @@ Light:
   m_Type: 2
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 30.14
+  m_Range: 17.85
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
@@ -2845,6 +2846,24 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1138429549}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &1138429555
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1138429549}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d66b8ce12ce679f458ee3cf3483c5c3a, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1170356126
 GameObject:
   m_ObjectHideFlags: 0
@@ -3405,7 +3424,7 @@ Transform:
   m_GameObject: {fileID: 1395323080}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.42722228, y: 0.73, z: 0.659821}
-  m_LocalScale: {x: 0.7000003, y: 0.14333339, z: 0.17272247}
+  m_LocalScale: {x: 0.7000003, y: 0.15, z: 0.17272247}
   m_Children: []
   m_Father: {fileID: 177195849}
   m_RootOrder: 7
